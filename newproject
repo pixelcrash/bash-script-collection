@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+echo This script sets up your folder structur for a new project
+echo Enter the projectname:
+read projectname
+mkdir projectname
+cd projectname
+mkdir assets
+mkdir finals
+mkdir whatever
