@@ -1,0 +1,6 @@
+ COUNTER=0
+ while [  $COUNTER -lt 50000 ]; do
+     HELLO=$(curl http://xxxx -s)
+     echo $HELLO
+     let COUNTER=COUNTER+1 
+ done
